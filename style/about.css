@@ -1,0 +1,54 @@
+.about{
+    width: 93%;
+    height: 100vh;
+    background: #00000067;
+    border-radius: 10px;
+    padding: 50px;
+    color: black;
+}
+.title{
+    color: rgb(0, 0, 0);
+    font: 100;
+    font-size: 100px;
+    padding: 10px;
+}
+.p-1{
+    color: rgb(0, 0, 0);
+    width: 60%;
+}
+.li-ab li{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: none;
+}
+.li-ab li:hover{
+    text-decoration: underline;
+}
+.link{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.karu{
+    color: rgb(62, 98, 8);
+    padding-left: 5px;
+    text-decoration: dashed;
+}
+.karu:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+@media (max-width: 320px){
+
+    .title{
+        width: 200px;
+        font-size: 50px;
+    }
+    .p-1{
+        width: 200px;
+    }
+    .about{
+        width: 200px;
+        height: 100%;
+    }
+}
